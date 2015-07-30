@@ -1,9 +1,6 @@
 def LongestWord(sen)
   
-  arr = sen.split(" ")
-  arr.sort! { |a, b| b.length <=> a.length }
-  arr[0]
-  
+   return sen.split(" ").max_by(&:length) 
   # code goes here
   
          
