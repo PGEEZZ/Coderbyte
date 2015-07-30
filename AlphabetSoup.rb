@@ -1,8 +1,6 @@
 def AlphabetSoup(str)
 
-  # code goes here
-  ary = str.split(//)
-  return ary.sort.join("").strip
+  return str.split("").sort.to_s
         
 end
    
